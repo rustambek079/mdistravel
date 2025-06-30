@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    margin-top: -50px;
+    padding-bottom: 200px;
+}
+
+.main__section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.main__section-link {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.main__section-link:nth-of-type(1),
+.main__section-link:nth-of-type(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.main__section-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    padding-bottom: -100px;
+}
+
+.msi {
+    filter: brightness(0.7);
+}
+
+.main__section-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    z-index: 2;
+}
+
+.main_section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main__section-text {
+    font-size: 18px;
+    margin-block: 20px;
+}
+
+.main__section-span {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main__section-span:hover {
+    cursor: pointer;
+}
+
+.main__section-below-text {
+    background-color: #f8f8f8;
+    border-radius: 0 0 10px 10px;
+    color: #333;
+}
+
+.main__section-below-text h3 {
+    font-weight: 600;
+}
+
+.main__section-below-text p {
+    line-height: 1.4;
+}
+
+.msl {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+.msl img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.main__section-box {
+    padding: 10px;
+}
+
+.main__box-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 29px;
+}
+
+.main__box-text {
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 27px
+}
+
+.main__section-span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mss i {
+    color: rgb(65, 184, 65);
+}
+
+.mss {
+    padding: 5px;
+    background-color: #d1d1d1;
+    display: inline;    
+    color: #565656;
+    border-radius: 5px;
+}
+
+
+.main__section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 ta ustun katta ekranda */
+    gap: 20px;
+}
+
+.main__section-link {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px; /* kichik cardlar ham bundan kam bo‘lmaydi */
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .main__section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .main__section-link {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main__section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .main__section-link {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+}
+

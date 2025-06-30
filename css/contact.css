@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    margin-top: -100px;
+    padding-bottom: 100px;
+}
+
+.main__section-contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__contact-card {
+    border-radius: 15px;
+}
+
+.contact-card {
+    display: inline;
+    background-color: #1d2f41;
+    padding: 20px;
+    width: 40%;
+}
+
+.mfc1 {
+    margin-block: 30px;
+}
+
+.mfc {
+    font-size: 24px;
+    color: #FFF;
+    line-height: 30px;
+}
+
+.question-card {
+    display: block;
+}
+
+.mbox {
+    margin-top: 100px;
+}
+
+.mfc__text {
+    color: rgb(177, 177, 177);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .main__section-contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main__contact-card {
+        width: 100%;
+    }
+}

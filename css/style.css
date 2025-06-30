@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -21,6 +22,10 @@ body {
 
 button:hover {
     cursor: pointer;
+}
+
+.mp {
+    color: #1d2f41;
 }
 
 /* general end */
@@ -70,8 +75,8 @@ button:hover {
 }
 
 .nav__card-item {
-    font-weight: 500;
-    font-family: sans-serif;
+    /* font-weight: 500; */
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
 }
@@ -79,6 +84,7 @@ button:hover {
 .nav__card-link {
     color: #121212;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 .hamburger {
@@ -109,7 +115,7 @@ button:hover {
     gap: 1.5rem;
     transition: left 0.3s ease;
     z-index: 1000;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .sidebar h2 {
@@ -189,7 +195,7 @@ button:hover {
     font-size: 2.5rem;
     margin-top: 5rem;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 55px;
     position: relative;
     z-index: 3;
@@ -197,7 +203,7 @@ button:hover {
 
 .header__place-text {
     color: rgb(173, 173, 173);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     width: 100%;
     font-size: 1rem;
     text-align: center;
@@ -218,7 +224,7 @@ button:hover {
     margin-left: 1.25rem;
     padding: 0.9375rem 0.625rem;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     background: none;
     border: 1px solid #fff;
     border-radius: 20px;
@@ -253,8 +259,7 @@ button:hover {
 
 main {
     margin-block: 6.25rem;
-}
-
+}        
 
 .main__section-cards {
     display: flex;
@@ -299,12 +304,12 @@ main {
 
 .main-section-title {
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .main__section-link {
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .main__section-img__bottom {
@@ -312,7 +317,7 @@ main {
     left: 20px;
     bottom: 80px;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .main__section-text {
@@ -377,7 +382,7 @@ main {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .container h2 {
@@ -410,7 +415,7 @@ main {
     max-width: 350px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .advantage-card:hover {
@@ -446,7 +451,7 @@ main {
     width: 100%;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
     transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 1s ease;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     transform: scale(2);
     opacity: 0.5;
     transform-origin: center center;
@@ -507,14 +512,14 @@ main {
 .section__destination-title {
     color: #FFF;
     font-size: 1.875rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     width: 100%;
 }
 
 .section__destination-text {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #dfdfdf;
     font-weight: 600;
@@ -552,11 +557,11 @@ main {
 .information {
     position: relative;
     padding: 100px 0;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .section__information-title {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 
@@ -570,7 +575,7 @@ main {
 }
 
 .information-title {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 30px 0;
     text-transform: uppercase;
     font-size: 1.75rem;
@@ -602,20 +607,16 @@ main {
 }
 
 .section__information-btn {
+    all: unset;
     padding: 15px;
     font-size: 1rem;
     border-radius: 10px;
     border: none;
     background-color: #cfd9df;
     margin: 20px 10px 0 0;
-    font-weight: 500;
+    /* font-weight: 500; */
     transition: 0.3s;
-}
-
-.section__information-btn:hover {
-    background-color: #0188ca;
-    color: #fff;
-    cursor: pointer;
+    font-family: 'Inter', sans-serif;
 }
 
 .section__information-btn.active {
@@ -689,7 +690,7 @@ main {
 
 .section__trip-title {
     font-size: 2.25rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     padding-bottom: 1.25rem;
 }
@@ -697,7 +698,7 @@ main {
 .section__trip-text {
     color: #FFF;
     font-size: 1.125rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-bottom: 1.25rem;
 }
 
@@ -738,7 +739,7 @@ main {
 .section__package-main {
     display: flex;
     /* justify-content: space-around; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .section__package-titles {
@@ -765,7 +766,7 @@ main {
     border-radius: 12px;
     overflow: hidden;
     background-color: #FFF;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .section__package-card .section__package-image {
@@ -876,7 +877,7 @@ p:hover button:hover {
 
 .question-card {
     padding: 1.875rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .section__question-title {
@@ -951,6 +952,7 @@ p:hover button:hover {
 
 .footer {
     background-color: #1d2f41;
+    font-family: 'Inter', sans-serif;
     padding-top: 3.125rem;
 }
 
@@ -982,7 +984,7 @@ p:hover button:hover {
     display: flex;
     flex-direction: column;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer__card-link {
@@ -995,7 +997,7 @@ p:hover button:hover {
     align-items: center;
     color: #FFF;
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-bottom: 1.25rem;
 }
 
@@ -1010,7 +1012,7 @@ p:hover button:hover {
 
 .footer-text {
     padding-top: 0.625rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: #FFF;
     display: flex;
@@ -1044,12 +1046,12 @@ p:hover button:hover {
     padding-top: 0.625rem;
     font-size: 1rem;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer-span {
     color: #13b0a3;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 /* footer end */
@@ -1215,7 +1217,7 @@ p:hover button:hover {
     }
 
     .title-text {
-        margin-left: 120px;
+        /* margin-left: 120px; */
     }
 }
 
@@ -1254,6 +1256,7 @@ p:hover button:hover {
         width: 100%;
         font-size: 28px;
         line-height: 32px;
+        position: relative;
     }
 
     .header__buttons {
@@ -1265,10 +1268,11 @@ p:hover button:hover {
     .header__btn {
         width: 100%;
         margin-bottom: 10px;
+        margin-left: 0;
     }
 
     .header__place-cards {
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     /* ================================================================ */
